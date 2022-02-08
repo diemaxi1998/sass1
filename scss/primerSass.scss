@@ -1,0 +1,30 @@
+//Esto es un comentario de SCSS//
+/*Esto es un comentario de CSS puro*/
+
+/*otro comentario*/
+
+/*probando*/
+
+body{
+    background-color: black;
+}
+
+
+header{
+    .navbar-brand{
+        font-size: 250%;}
+        font-family: 'Times New Roman', Times, serif;
+        color: pink;}
+    .collapse{
+        margin-left: 30%;
+    }
+        .nav-item{
+            font-size: 120%;}
+            .nav-item:hover{
+                background-color: rgb(0, 0, 0);
+            }
+
+        .icono{
+            width: 5%;
+
+        }

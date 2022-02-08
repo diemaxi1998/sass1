@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,qCAAqC;AAErC,mBAAmB",
+    "sources": [
+        "primerSass.scss"
+    ],
+    "names": [],
+    "file": "primerSass.css"
+}
