@@ -1,23 +1,22 @@
 /*Esto es un comentario de CSS puro*/
-/*otro comentario*/
-/*probando*/
+/****************HEADER*************/
 body {
   background-color: black; }
 
-header {
+header .navbar-brand {
+  font-size: 250%;
   font-family: 'Times New Roman', Times, serif;
   color: pink; }
-  header .navbar-brand {
-    font-size: 250%; }
 
-.collapse {
+header .collapse {
   margin-left: 30%; }
 
-.nav-item {
+header .nav-item {
   font-size: 120%; }
 
-.nav-item:hover {
-  background-color: black; }
+header .nav-item:hover {
+  background-color: black;
+  border: 1px solid crimson; }
 
-.icono {
+header .icono {
   width: 5%; }
