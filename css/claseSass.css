@@ -1,4 +1,5 @@
 /*Esto es un comentario de CSS puro*/
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
 /****************HEADER*************/
 body {
   background-color: black; }
@@ -20,3 +21,56 @@ header .nav-item:hover {
 
 header .icono {
   width: 5%; }
+
+/************RESTO DEL BODY*****************/
+.descripcion {
+  color: azure;
+  background-image: radial-gradient(#d80130, black);
+  padding-left: 9%;
+  font-size: 180%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  font-family: 'Supermercado One', cursive; }
+
+.segundoFondo {
+  background-color: #1d1c1c; }
+  .segundoFondo .significados {
+    color: whitesmoke;
+    background-image: radial-gradient(#d80130, black);
+    padding-left: 9%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    height: 10%;
+    padding-top: 1%;
+    font-family: 'Supermercado One', cursive; }
+  .segundoFondo .card-body {
+    background-color: #a8a8a8;
+    color: #913d4f; }
+  .segundoFondo .card {
+    margin-bottom: 15%;
+    margin-left: 10%; }
+
+/******FOOTER*********/
+footer .text-center {
+  color: #fdfcfc;
+  margin-left: 80%; }
+
+footer a {
+  color: tomato; }
+
+footer a:hover {
+  background-color: black;
+  font-size: 120%;
+  color: white; }
+
+footer .fa-instagram:hover {
+  color: #ca5639; }
+
+footer .fa-facebook:hover {
+  color: #0505ac; }
+
+footer .fa-twitter:hover {
+  color: #00b1ec; }
+
+footer .fa-whatsapp:hover {
+  color: #15ff00; }
